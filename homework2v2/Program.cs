@@ -13,10 +13,9 @@ int number = Prompt("Введите число ");
 char[] arr = number.ToString().ToCharArray();
 
 int sum = 0;
-for (int i = 0; i < (arr.Length-1); i++)
+for (int i = 0; i < arr.Length; i++)
 {
     sum += arr[i];
 }
 
 Console.WriteLine(sum); //так не получается, не понимаю почему :(
-    
